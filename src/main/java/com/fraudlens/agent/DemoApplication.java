@@ -11,7 +11,7 @@ public class DemoApplication {
 
 
     //test
-    @GetMapping("/")
+    @GetMapping("/home")
     public String home() {
         return "home";
     }
